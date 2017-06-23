@@ -31,4 +31,19 @@ Get-ChildItem $SpotlightAssets | ? { -not $_.PSIsContainer } | ? { -not [System.
 #Delete files without any extension
 Get-ChildItem -Path $SpotlightAssets | Where-Object { $_.Extension -eq $null } | Remove-Item
 
-#TODO Move pictures to spotlight folder
+#Move pictures to spotlight folder
+foreach($newfile in (Get-Item "$SpotlightAssets\*")) {
+    $image = New-Object -comObject WIA.ImageFile;
+    $image.LoadFile($newfile.FullName);
+    if($image.Width.ToString() -eq "1920") {
+        Move-Item $newfile.FullName "$SpotlightHorizontal" -Force;
+        Write-Output "Move item $($newfile.FullName) to desktop."
+    }
+    elseif($image.Width.ToString() -eq "1080") {
+        Move-Item $newfile.FullName "$SpotlightVertical" -Force;
+        Write-Output "Move item $($newfile.FullName) to mobile."
+    }
+}
+Write-Output "Removing temporary assets folder."
+Remove-Item "$SpotlightAssets\*";
+Remove-Item "$SpotlightAssets"
