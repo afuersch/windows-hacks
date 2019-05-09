@@ -19,6 +19,7 @@ choco install github-desktop
 choco install ngrok
 choco install NSwagStudio
 choco install putty
+choco install postman
 
 #VM
 choco install virtualbox
