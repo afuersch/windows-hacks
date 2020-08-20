@@ -11,11 +11,12 @@ choco install notepadplusplus.install
 choco install keepass.install #free open source password manager
 
 choco install paint.net
-choco install PDFXchangeEditor
+#choco install PDFXchangeEditor
+choco install foxitreader
 
 #mulitmedia
 cinst vlc
-cinst iTunes
+#cinst iTunes
 #cinst spotify
 
 #reset execution policy to "restricted"
