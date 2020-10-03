@@ -1,4 +1,30 @@
-﻿param (
+﻿<#
+
+.Synopsis
+
+Saves the windows spotlight images to a specified folder.
+
+.Description
+
+Saves the windows spotlight images to a specified folder in the Pictures directory of the user profile.
+
+.Parameter SavePath
+
+(Optional) The path to the location to save the images to.
+Default path is "%USERPROFILE%\Pictures".
+
+.Parameter LogFile
+
+(Optional) The path of the location to save the robocopy log file to.
+Default path is "%USERPROFILE%\spotlight.log".
+
+.Notes
+
+Version: 1.0
+
+#>
+
+param (
     # The location to save the images to.
     [Parameter(Position=1,HelpMessage="The location to save the images to.")]
     [string]
