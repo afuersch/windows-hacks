@@ -7,31 +7,25 @@
 			"Packages" :
 			[
 				{
-					"PackageIdentifier" : "Git.Git"
+					"PackageIdentifier" : "Bitwarden.Bitwarden"
+				},
+                {
+					"PackageIdentifier" : "Toggl.TogglTrack"
+				},
+								{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+                {
+					"PackageIdentifier" : "WinSCP.WinSCP"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+					"PackageIdentifier" : "3CX.Softphone"
 				},
 				{
-					"PackageIdentifier" : "Notepad++.Notepad++"
+					"PackageIdentifier" : "Mozilla.Firefox.ESR"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Teams"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.7"
-				},
-				{
-					"PackageIdentifier" : "Fork.Fork"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.7"
-				},
-				{
-					"PackageIdentifier" : "Postman.Postman"
+					"PackageIdentifier" : "Cisco.WebexTeams"
 				}
 			],
 			"SourceDetails" :
