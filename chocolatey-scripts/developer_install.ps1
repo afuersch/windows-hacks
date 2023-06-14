@@ -6,8 +6,9 @@ choco install git.install
 choco install docker-desktop
 
 #SDKs
-choco install jdk8
-choco install nodejs.install
+# choco install jdk8
+# choco install nodejs.install
+choco install nodejs-lts
 
 #IDEs
 choco install vscode
@@ -20,9 +21,12 @@ choco install git-fork
 #Tools
 choco install ngrok
 choco install NSwagStudio
-choco install putty
 choco install postman
 choco install azure-data-studio
+
+# SSH
+choco install putty
+choco install winscp
 
 #messenger
 choco install microsoft-teams
