@@ -22,5 +22,5 @@ winget import -i development.json
 ## Software for my work computer
 
 ```bash
-winget import -i development.json
+winget import -i work.json
 ```
