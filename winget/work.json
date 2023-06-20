@@ -9,13 +9,13 @@
 				{
 					"PackageIdentifier" : "Bitwarden.Bitwarden"
 				},
-                {
+                 		{
 					"PackageIdentifier" : "Toggl.TogglTrack"
 				},
-								{
+				{
 					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
-                {
+                		{
 					"PackageIdentifier" : "WinSCP.WinSCP"
 				},
 				{
@@ -26,6 +26,12 @@
 				},
 				{
 					"PackageIdentifier" : "Cisco.WebexTeams"
+				},
+				{
+					"PackageIdentifier" : "JetBrains.Rider"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community"
 				}
 			],
 			"SourceDetails" :
