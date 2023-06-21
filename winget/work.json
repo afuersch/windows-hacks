@@ -32,6 +32,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community"
+				},
+				{
+					"PackageIdentifier" : "OpenJS.NodeJS.LTS"
 				}
 			],
 			"SourceDetails" :
