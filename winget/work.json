@@ -43,7 +43,13 @@
 					"PackageIdentifier" : "Microsoft.Azure.StorageExplorer"
 				},
 				{
-					"PackageIdentifier" : "JetBrains.Rider"
+					"PackageIdentifier" : "WireGuard.WireGuard"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.SQLServerManagementStudio"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AzureDataStudio"
 				}
 			],
 			"SourceDetails" :
